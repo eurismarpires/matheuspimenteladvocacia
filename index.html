@@ -99,13 +99,12 @@
   .about-text{ font-size: 20px; line-height: 1.8; color: var(--ink-soft); font-weight: 300; }
 
   /* ============== FOUNDER ============== */
-  .founder-section{ padding: 120px 0; background: var(--navy); color: white; position: relative; overflow:hidden;}
-  .founder-grid{ display:grid; grid-template-columns: 1fr 1.2fr; gap: 100px; align-items: center; position:relative; z-index:1;}
-  @media (max-width: 900px){ .founder-grid{ grid-template-columns: 1fr; gap: 40px; } }
-  .founder-img{ border: 1px solid var(--gold); padding: 12px; }
-  .founder-img img{ width: 100%; height: auto; }
+  .founder-section{ padding: 120px 0 0; background: var(--navy); color: white; position: relative; overflow:hidden;}
+  .founder-content{ max-width: 850px; margin: 0 auto; text-align: center; padding: 0 40px; }
   .founder-info h2{ color: var(--gold); font-size: 38px; margin-bottom: 20px; }
   .founder-info p{ font-size: 16px; margin-bottom: 20px; opacity: 0.9; }
+  .founder-img-full{ width: 100%; margin-top: 60px; border-top: 1px solid rgba(218,188,107,0.3); }
+  .founder-img-full img{ width: 100%; height: auto; display: block; }
 
   /* ============== CONTACT ============== */
   .contact-section{ padding: 120px 0; background: white; }
@@ -243,20 +242,18 @@
 
 <!-- ============== FUNDADOR ============== -->
 <section id="equipe" class="founder-section">
-  <div class="container">
-    <div class="founder-grid">
-      <div class="founder-img">
-        <img src="IDENTIDADE VISUAL/CAPAS/Capa Facebook-100.jpg" alt="Dr. Matheus Pimentel" />
-      </div>
-      <div class="founder-info">
-        <h2 class="serif">Dr. Matheus Pimentel</h2>
-        <p style="color: var(--gold); font-family: var(--serif); font-size: 20px; font-style: italic; margin-bottom: 30px;">Advogado e Fundador</p>
-        <p>O Dr. Matheus Pimentel é advogado e fundador do escritório, com atuação prática em diversas áreas do Direito e experiência na condução de casos que exigem estratégia, responsabilidade e atenção aos detalhes.</p>
-        <p>Desde a criação do escritório, seu foco sempre foi um só: oferecer soluções jurídicas seguras e eficientes, tratando cada cliente de forma individual e com total dedicação.</p>
-        <p>Participa diretamente dos atendimentos e da definição das estratégias, garantindo que cada caso seja conduzido com seriedade, clareza e compromisso com o melhor resultado possível.</p>
-        <a class="btn gold" href="https://wa.me/5562992271619" target="_blank" style="margin-top: 30px;">Agendar atendimento</a>
-      </div>
+  <div class="founder-content">
+    <div class="founder-info">
+      <h2 class="serif">Dr. Matheus Pimentel</h2>
+      <p style="color: var(--gold); font-family: var(--serif); font-size: 20px; font-style: italic; margin-bottom: 30px;">Advogado e Fundador</p>
+      <p>O Dr. Matheus Pimentel é advogado e fundador do escritório, com atuação prática em diversas áreas do Direito e experiência na condução de casos que exigem estratégia, responsabilidade e atenção aos detalhes.</p>
+      <p>Desde a criação do escritório, seu foco sempre foi um só: oferecer soluções jurídicas seguras e eficientes, tratando cada cliente de forma individual e com total dedicação.</p>
+      <p>Participa diretamente dos atendimentos e da definição das estratégias, garantindo que cada caso seja conduzido com seriedade, clareza e compromisso com o melhor resultado possível.</p>
+      <a class="btn gold" href="https://wa.me/5562992271619" target="_blank" style="margin-top: 30px;">Agendar atendimento</a>
     </div>
+  </div>
+  <div class="founder-img-full">
+    <img src="IDENTIDADE VISUAL/CAPAS/Capa WhatsApp-100.jpg" alt="Dr. Matheus Pimentel" />
   </div>
 </section>
 
